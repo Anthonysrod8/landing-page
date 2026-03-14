@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-rows: 1.2fr 1fr 1fr 1fr 4em;
+}
