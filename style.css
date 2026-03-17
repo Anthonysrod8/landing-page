@@ -118,6 +118,8 @@ a {
     align-items: center;
     flex-wrap: wrap;
     width: 60%;
+    color: #1f2937;
+    font-weight: 300;
 }
 
 /* QUOTE END */
@@ -132,7 +134,7 @@ a {
     display: flex;
     justify-content: space-evenly;
     background-color: #3882f6;
-    width: 75%;
+    width: 72%;
     height: 45%;
     border-radius: 10px;
 }
@@ -164,7 +166,15 @@ a {
 /* CALL TO ACTION END */
 
 /* FOOTER START */
-
+.footer {
+    background-color:#1f2937;
+    display: flex;
+    height: 5%;
+    justify-content: center;
+    align-items: center;
+    color: #c9cbd0;
+    font-size: 12px;
+}
 
 /* FOOTER END */
 
