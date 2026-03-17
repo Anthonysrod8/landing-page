@@ -86,19 +86,19 @@ a {
 .info-boxes {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    flex-grow: 4;
 }
 .info-boxes div {
     height: 120px;
-    width: 130px;
+    width: 120px;
     border: 4px solid dodgerblue;
     border-radius: 10px;
+    margin-bottom: -2em;
 }
-.info-boxes p {
-    font-size: 11px;
-    width: 130px;
-    height: 50px;
+.info-para {
+    display: flex;
+    font-size: 12px;
+    gap: 1em;
+    text-align: center;
 }
 
 /* INFO END */
